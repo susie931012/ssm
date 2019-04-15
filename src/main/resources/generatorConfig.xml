@@ -17,15 +17,18 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!--生成Model类存放位置-->
+            <!--targetProject路径要改成当前java文件夹路径-->
         <javaModelGenerator targetPackage="com.shsxt.po" targetProject="E:/java_26/ssm/src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
         <!--生成映射文件存放位置-->
+            <!--targetProject路径要改成当前java文件夹路径-->
         <sqlMapGenerator targetPackage="com.shsxt.mapper" targetProject="E:/java_26/ssm/src/main/java">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
         <!--生成Dao类存放位置-->
+            <!--targetProject路径要改成当前java文件夹路径-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.shsxt.dao" targetProject="E:/java_26/ssm/src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
